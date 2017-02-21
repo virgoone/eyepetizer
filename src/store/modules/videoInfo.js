@@ -60,7 +60,6 @@ const actions = {
 /* eslint-disable */
 const mutations = {
   [types.GET_VIDEO_INFO_SUCCESS](state, { res }) {
-    console.log(res.data)
     res.data.time = formatTime(res.data.duration * 1000);
     state.video = res.data;
   },
