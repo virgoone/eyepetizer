@@ -1,6 +1,18 @@
-# eyepetizer
+# 开眼视频Vuejs实现
 
 > A Vue.js project with eyepetizer APP
+
+## API
+``` bash
+# 获取视频详情
+http://baobab.wandoujia.com/api/v1/video/14416
+
+# 获取关联视频
+http://baobab.wandoujia.com/api/v1/video/related/14416?num=5
+
+# 获取当前视频评论
+http://baobab.wandoujia.com/api/v1/replies/video?id=14416&num=5
+```
 
 ## Build Setup
 
